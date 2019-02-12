@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <HorizontalScrollView android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="0.1">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                      android:gravity="center">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOME"
+                    android:id="@+id/home"
+                    android:textColor="#d71c0b"
+                     android:background="#95aaeff2"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg"
+                    android:id="@+id/veg"
+                    android:textColor="#280c99"
+                    android:background="#90f2abf0"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NonVeg"
+                    android:id="@+id/nonveg"
+                    android:textColor="#d71c0b"
+                    android:background="#95aaeff2"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starters"
+                    android:id="@+id/starters"
+                    android:textColor="#280c99"
+                    android:background="#90f2abf0"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza"
+                    android:id="@+id/pizza"
+                    android:textColor="#d71c0b"
+                    android:background="#95aaeff2"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desserts"
+                    android:id="@+id/desserts"
+                    android:textColor="#280c99"
+                    android:background="#90f2abf0"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beverages"
+                    android:id="@+id/beverages"
+                    android:textColor="#d71c0b"
+                    android:background="#95aaeff2"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Offers"
+                    android:id="@+id/offers"
+                    android:textColor="#280c99"
+                    android:background="#90f2abf0"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ContactUs"
+                    android:id="@+id/contactus"
+                    android:textColor="#d71c0b"
+                    android:background="#95aaeff2"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="0.8"
+                 android:id="@+id/frame1"
+    ></FrameLayout>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="0.1"
+              android:text="Copy Rights- AainaFoodDeliveryApp -2019"
+              android:textSize="15sp"
+              android:gravity="center"/>
+
+
+
+</LinearLayout>
